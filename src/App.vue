@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Cliente</router-link> |
+    <router-link to="/Pastelero">Pastelero</router-link>
   </nav>
   <router-view/>
 </template>
@@ -16,7 +16,15 @@
 }
 
 nav {
-  padding: 30px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 70%);
+  height: 10px;
+  position: fixed;
+  top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 nav a {
@@ -25,6 +33,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #be7719;
 }
 </style>
